@@ -1,0 +1,38 @@
+<suite name="Skillo exam project" verbose="1"  thread-count="1">
+<!--    <listeners>-->
+<!--        <listener class-name="org.testng.reporters.EmailableReporter"></listener>-->
+<!--    </listeners>-->
+    <test name="Create new private post ">
+        <classes>
+            <class name="Tests.CreateNewPrivatePost"/>
+        </classes>
+    </test>
+    <test name="Follow/Unfollow random selected user from a search list  ">
+        <classes>
+            <class name="Tests.Follow_UnfollowRandomUser"/>
+        </classes>
+    </test>
+    <test name="Change public status of random selected existing post ">
+        <classes>
+            <class name="Tests.ChangePostStatus"/>
+        </classes>
+    </test>
+
+    <test name="Change username and password of existing user ">
+        <classes>
+            <class name="Tests.ChangeNameAndPasswordOfExistingUser"/>
+        </classes>
+    </test>
+
+    <test name="Leaving a comment on a random selected post  ">
+        <classes>
+            <class name="Tests.LeavingACommentOnARandomPost"/>
+        </classes>
+    </test>
+
+    <test name="1">
+        <classes>
+
+        </classes>
+    </test>
+</suite>
